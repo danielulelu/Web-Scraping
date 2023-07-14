@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 from pymongo import MongoClient
 
-client = MongoClient('mongodb+srv://danielelevn:3gnzOIgdh9mjH9KM@clusters.2m8qhmo.mongodb.net/?retryWrites=true&w=majority')
+client = MongoClient('mongodb+srv://danielelevn:*******@clusters.2m8qhmo.mongodb.net/?retryWrites=true&w=majority')
 db = client['Scrape']
 collection = db['webscrape']
 
